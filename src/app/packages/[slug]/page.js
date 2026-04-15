@@ -777,7 +777,7 @@ const handleToast = (msg, type) => {
       .map((v, i) => (
         <a
           key={i}
-          href={`/car/${v.slug}`}
+          href={`/packages/${v.slug}`}
           className="flex items-center gap-3 p-3 rounded-xl bg-[#f8fbff] border border-transparent hover:border-[#359ade]/30 hover:shadow-md transition-all group"
         >
 
